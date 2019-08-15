@@ -1,0 +1,17 @@
+﻿
+<form action="/cliente/cadastro" method="post">
+    <div class="form-group">
+        <label for="cliente-nome">Nome</label>
+        <input type="text" id="cliente-nome" name="nome" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label for="cliente-cpf">CPF</label>
+        <input type="text" id="cliente-cpf" name="cpf" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-success float-right">Salvar</button>
+</form>
+
+@section Scripts{
+    <script src="~/js/cliente/cliente-cadastro.js"></script>
+}

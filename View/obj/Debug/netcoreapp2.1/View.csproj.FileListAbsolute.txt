@@ -33,3 +33,13 @@ C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\
 C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\View.pdb
 C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\Index.g.cshtml.cs
 C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\ModalCadastro.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Peca\Index.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Peca\CadastroModal.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Index.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Cadastro.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Editar.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\CadastroModalPeca.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Editar.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.g.cshtml.cs
+C:\Users\fsens\source\repos\ExemploEntityFramework\View\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\CadastroModal.g.cshtml.cs

@@ -24,11 +24,11 @@ namespace View.Controllers
             return View();
         }
 
-        [HttpPost, Route("inserir")]
-        public JsonResult Inserir([FromForm]Computador computador)
+        [HttpPost, Route("cadastro")]
+        public ActionResult Cadastro([FromForm]Computador computador)
         {
             var id = repository.Inserir(computador);
-            return Json(new { id = id });
+            return RedirectToAction("Editar", new { id = id });
         }
 
         [HttpPost, Route("alterar")]
@@ -56,8 +56,27 @@ namespace View.Controllers
         [HttpGet, Route("obtertodos")]
         public ActionResult ObterTodos()
         {
-            return Json(repository.ObterTodos());
+            return Json(
+                new { data = repository.ObterTodos() }   
+            );
         }
         
+        [HttpGet, Route("cadastro")]
+        public ActionResult Cadastro()
+        {
+            return View();
+        } 
+
+        [HttpGet, Route("editar")]
+        public ActionResult Editar(int id)
+        {
+            var computador = repository.ObterPeloId(id);
+
+            if (computador == null)
+                return RedirectToAction("Index");
+
+            ViewBag.Computador = computador;
+            return View();
+        }
     }
 }

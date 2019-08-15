@@ -17,9 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="wwwroot\App_Data\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\NovaPasta\" />
   </ItemGroup>
 
 </Project>

@@ -8,7 +8,6 @@
             { data: 'id' },
             { data: 'nome' },
             {
-
                 render: function (data,type, row) {
                     return '<button class="btn btn-primary mr-2 botao-editar"\
             data-id="' + row.id + '">Editar</button>\

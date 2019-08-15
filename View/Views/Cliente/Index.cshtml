@@ -1,0 +1,26 @@
+﻿
+<h4 class="text-primary text-center">Lista de Clientes</h4>
+
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary float-right mb-3" href="/cliente/cadastro">Novo Cliente</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered table-striped table-hover" id="tabela-clientes">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/cliente/cliente-index.js"></script>
+}
